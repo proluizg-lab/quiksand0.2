@@ -1,0 +1,52 @@
+[gd_resource type="Theme" format=3 uid="uid://bfd1824f7nf71"]
+
+[ext_resource type="FontFile" uid="uid://bka2s67xu22sa" path="res://assets/assets quicksand/RevMiniPixel Regular.ttf" id="1_oey71"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qoeyx"]
+bg_color = Color(1, 0.35686275, 0.039215688, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0, 0, 0, 1)
+expand_margin_top = 5.0
+expand_margin_bottom = 2.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qaurf"]
+bg_color = Color(1, 1, 0.039215688, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0, 0, 0, 1)
+expand_margin_top = 5.0
+expand_margin_bottom = 2.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1uxeg"]
+bg_color = Color(1, 0.35686275, 0.039215688, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0, 0, 0, 1)
+border_blend = true
+expand_margin_top = 5.0
+expand_margin_bottom = 2.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bvkse"]
+bg_color = Color(1, 1, 0.039215688, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.7259913, 0.24402091, 0, 1)
+expand_margin_top = 5.0
+expand_margin_bottom = 2.0
+
+[resource]
+Button/colors/font_color = Color(1, 1, 1, 1)
+Button/fonts/font = ExtResource("1_oey71")
+Button/styles/focus = SubResource("StyleBoxFlat_qoeyx")
+Button/styles/hover = SubResource("StyleBoxFlat_qaurf")
+Button/styles/normal = SubResource("StyleBoxFlat_1uxeg")
+Button/styles/pressed = SubResource("StyleBoxFlat_bvkse")
